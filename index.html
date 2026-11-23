@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>যোগীপাল সমাজকল্যাণ ফাউন্ডেশন</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;500;600;700&display=swap">
+<style>
+:root{--bg:#fff;--soft:#eef5f0;--ink:#12382b;--mut:#5d6f66;--pri:#1f5e46;--dk:#0f3d2e;--line:#dfe8e2;--card:#fff;--gold:#f2c94c;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media(prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0e1a15;--soft:#13241c;--ink:#e6f1ea;--mut:#9fb3a8;--pri:#3f9c76;--dk:#0a1f17;--line:#25382f;--card:#172b22}}
+:root[data-theme="dark"]{--bg:#0e1a15;--soft:#13241c;--ink:#e6f1ea;--mut:#9fb3a8;--pri:#3f9c76;--dk:#0a1f17;--line:#25382f;--card:#172b22}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:"Hind Siliguri","Noto Sans Bengali",sans-serif;line-height:1.5}
+.wrap{max-width:520px;margin:0 auto}
+header{display:flex;justify-content:space-between;align-items:center;padding:14px 18px}
+.brand{display:flex;gap:10px;align-items:center}
+.logo{width:48px;height:48px;border-radius:50%;border:2px solid var(--pri);display:grid;place-items:center;color:var(--pri)}
+.brand b{display:block;font-size:24px;line-height:1.1}.brand small{color:var(--pri);font-weight:600;font-size:12px}
+.btn{background:var(--pri);color:#fff;border:0;border-radius:10px;padding:10px 14px;font:600 14px inherit;font-family:inherit}
+.hero{background:linear-gradient(160deg,#173f30,#2f6a4f 60%,#4c7a5c);color:#fff;padding:24px 18px 20px;position:relative}
+.hero{padding-bottom:150px;overflow:hidden}.hero>*{position:relative;z-index:1}.hero>.scene{position:absolute;inset:0;width:100%;height:100%;z-index:0}.hero h1{font-size:40px;line-height:1.2;margin:14px 0 8px;text-shadow:0 2px 8px rgba(0,0,0,.35)}.rep{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:14px;display:grid;gap:10px}.rep label{display:grid;gap:4px;font-weight:600;font-size:14px}.rep select,.rep input:not([type=checkbox]),.rep textarea{font:15px inherit;font-family:inherit;padding:9px 10px;border:1px solid var(--line);border-radius:8px;background:var(--bg);color:var(--ink)}.rep .chk{display:flex;gap:8px;align-items:center;font-weight:500}.hint{color:var(--mut);font-size:13px;margin:10px 0 0}.pres{display:flex;gap:16px;align-items:center}.avatar{width:104px;height:104px;border-radius:50%;border:3px dashed var(--pri);background:var(--soft);color:var(--pri);display:grid;place-items:center;text-align:center;font-size:13px;flex:none}.hero h1 span{color:var(--gold)}
+.hero p{margin:0 0 18px;opacity:.92}
+.search{display:flex;background:#fff;border-radius:12px;padding:6px;gap:8px}
+.search input{flex:1;border:0;outline:0;font:15px inherit;font-family:inherit;padding:8px 10px;min-width:0;color:#12382b}
+.search button{background:var(--dk);color:#fff;border:0;border-radius:8px;padding:0 18px;font:600 15px inherit;font-family:inherit}
+.chip{display:inline-block;border:1px solid rgba(255,255,255,.35);border-radius:20px;padding:3px 12px;font-size:13px}
+.notice{margin:14px 18px;border:1px solid var(--line);background:var(--soft);border-radius:10px;padding:8px 12px;font-size:14px;display:flex;gap:8px;align-items:center}
+.notice b{background:var(--pri);color:#fff;border-radius:6px;padding:2px 8px;font-size:13px;white-space:nowrap}
+section{padding:22px 18px}
+.alt{background:var(--soft)}
+.sh{display:flex;justify-content:space-between;align-items:end;margin-bottom:14px}
+h2{margin:0;font-size:26px;line-height:1.2}
+.sh a{color:var(--pri);font-weight:600;font-size:14px;text-decoration:none}
+.eyebrow{color:var(--pri);font-size:14px}
+.grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:10px}
+.svc{border:1px solid var(--line);background:var(--card);border-radius:14px;padding:14px 6px;text-align:center}
+.ic{width:46px;height:46px;border-radius:50%;margin:0 auto 8px;display:grid;place-items:center}
+.svc b{display:block;font-size:15px}.svc small{color:var(--mut);font-size:12px}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.prog{background:var(--card);border:1px solid var(--line);border-radius:14px;overflow:hidden;display:flex;flex-direction:column}
+.thumb{height:96px;display:grid;place-items:center;color:#fff}
+.prog div.t{padding:10px 12px 14px}
+.prog small{color:var(--mut);font-size:13px}.prog b{display:block;font-size:17px;line-height:1.35}
+.prog p{margin:4px 0 0;font-size:13px;color:var(--mut);line-height:1.45}
+.news{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:0 14px}
+.news a{display:flex;gap:12px;align-items:center;padding:12px 0;border-bottom:1px solid var(--line);color:inherit;text-decoration:none}
+.news a:last-child{border:0}
+.news .bell{width:40px;height:40px;border-radius:10px;background:var(--soft);display:grid;place-items:center;color:var(--pri)}
+.news small{color:var(--mut);display:block;font-size:12px}.news b{font-size:16px}
+.cta{margin:18px;background:var(--soft);border-radius:16px;padding:22px 18px}
+.cta h3{font-size:24px;margin:10px 0 6px;line-height:1.25}.cta p{color:var(--mut);margin:0 0 14px}
+footer{background:var(--dk);color:#e6f1ea;padding:26px 18px 32px}
+footer .brand b{color:#fff}footer .brand small{color:#bfe3cf}footer .logo{border-color:#bfe3cf;color:#bfe3cf}
+footer h4{font-size:19px;margin:18px 0 6px}footer p{margin:2px 0}
+svg{display:block}
+@media(prefers-reduced-motion:no-preference){.prog,.svc{transition:transform .15s}.prog:active,.svc:active{transform:scale(.98)}}
+:focus-visible{outline:3px solid var(--gold);outline-offset:2px}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header>
+  <div class="brand"><div class="logo"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M12 21v-8M12 13c0-4 3-6 7-6 0 4-3 6-7 6zM12 15c0-3-2-5-6-5 0 3 2 5 6 5z"/></svg></div>
+  <div><b>যোগীপাল</b><small>সমাজকল্যাণ ফাউন্ডেশন</small></div></div>
+  <button class="btn">অনুদান দিন</button>
+</header>
+
+<div class="hero"><svg class="scene" viewBox="0 0 520 460" preserveAspectRatio="xMidYMax slice" aria-hidden="true"><defs><linearGradient id="sk" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#2a5d46"/><stop offset=".55" stop-color="#e9c46a"/><stop offset="1" stop-color="#f6dfa0"/></linearGradient><linearGradient id="ov" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#0c3023" stop-opacity=".85"/><stop offset=".6" stop-color="#0c3023" stop-opacity=".35"/><stop offset="1" stop-color="#0c3023" stop-opacity="0"/></linearGradient></defs><rect width="520" height="460" fill="url(#sk)"/><circle cx="410" cy="270" r="40" fill="#fff1b8" opacity=".9"/><path d="M0 310Q130 255 260 300T520 285V460H0Z" fill="#7aa883"/><path d="M0 340Q60 300 120 340T240 335T360 340T520 325V460H0Z" fill="#3f7a56"/><g fill="#2e6347"><circle cx="40" cy="330" r="26"/><circle cx="70" cy="338" r="20"/><circle cx="250" cy="334" r="24"/><circle cx="290" cy="340" r="18"/><circle cx="500" cy="326" r="26"/></g><g><rect x="70" y="350" width="62" height="36" fill="#c9a36b"/><polygon points="60,352 101,318 142,352" fill="#8a6a2f"/><rect x="93" y="362" width="16" height="24" fill="#5b3a24"/><rect x="385" y="346" width="74" height="40" fill="#d6b27a"/><polygon points="374,348 422,310 470,348" fill="#8a6a2f"/><rect x="414" y="360" width="16" height="26" fill="#5b3a24"/></g><g stroke="#4a3320" stroke-width="4" fill="none"><path d="M200 390V345"/></g><g fill="#2f7a4f"><ellipse cx="186" cy="342" rx="20" ry="6"/><ellipse cx="214" cy="342" rx="20" ry="6"/><ellipse cx="200" cy="334" rx="6" ry="18"/></g><path d="M0 400Q130 382 260 398T520 390V460H0Z" fill="#5aa3a8"/><path d="M290 418Q325 436 365 418Z" fill="#5b3a24"/><path d="M327 418V396L350 418Z" fill="#f4efe0"/><path d="M0 445Q130 418 260 442T520 434V460H0Z" fill="#2f6a4f"/><rect width="520" height="460" fill="url(#ov)"/></svg>
+  <span class="chip">ডিজিটাল সমাজসেবা পোর্টাল</span>
+  <h1>মানুষের পাশে,<br><span>সমাজের কল্যাণে</span></h1>
+  <p>শিক্ষা, স্বাস্থ্য ও মানবিক সেবায় আপনার বিশ্বস্ত সহযোগী।</p>
+  <form class="search" onsubmit="return false"><input type="search" placeholder="সেবা, তথ্য বা নোটিশ খুঁজুন…" aria-label="অনুসন্ধান"><button>খুঁজুন</button></form>
+</div>
+
+<div class="notice"><b>বিজ্ঞপ্তি</b><span>স্বেচ্ছাসেবী কাজে আগ্রহীদের জন্য তথ্য ও নির্দেশিকা</span></div>
+
+<section>
+  <div class="sh"><div><div class="eyebrow">সেবা পোর্টাল</div><h2>আমাদের সেবাসমূহ</h2></div><a href="#">সকল সেবা</a></div>
+  <div class="grid3" id="svc"></div>
+</section>
+
+<section class="alt">
+  <div class="sh"><h2>আমাদের কার্যক্রম</h2><a href="#">সব দেখুন</a></div>
+  <div class="grid2" id="prog"></div>
+</section>
+
+<section>
+  <div class="sh"><h2>গ্রামের বিনোদন</h2><a href="#">সব দেখুন</a></div>
+  <div class="news">
+    <a href="#"><span class="bell">🎪</span><span><small>মেলা</small><b>গ্রামীণ মেলা ও পালাগান</b></span></a>
+    <a href="#"><span class="bell">🏏</span><span><small>খেলাধুলা</small><b>ক্রিকেট টুর্নামেন্ট</b></span></a>
+    <a href="#"><span class="bell">⚽</span><span><small>খেলাধুলা</small><b>ফুটবল ম্যাচ</b></span></a>
+    <a href="#"><span class="bell">🏐</span><span><small>খেলাধুলা</small><b>ভলিবল প্রতিযোগিতা</b></span></a>
+    <a href="#"><span class="bell">🎶</span><span><small>সংস্কৃতি</small><b>সাংস্কৃতিক সন্ধ্যা ও যাত্রাপালা</b></span></a>
+  </div>
+</section>
+
+<section class="alt" id="report">
+  <div class="sh"><div><div class="eyebrow">নিরাপদ সমাজ</div><h2>অপরাধ তথ্য জানান</h2></div></div>
+  <form class="rep" id="rep">
+    <label>বিষয়<select required><option value="">নির্বাচন করুন</option><option>মাদক সংক্রান্ত</option><option>চুরি ও ডাকাতি</option><option>নারী ও শিশু নির্যাতন</option><option>বাল্যবিবাহ</option><option>জমি ও সীমানা বিরোধ</option><option>অন্যান্য</option></select></label>
+    <label>স্থান বা পাড়া<input placeholder="যেমন: পূর্বপাড়া"></label>
+    <label>ঘটনার বিবরণ<textarea rows="4" required placeholder="কী, কখন ও কোথায় ঘটেছে লিখুন"></textarea></label>
+    <label class="chk"><input type="checkbox" checked> আমার নাম গোপন রাখুন</label>
+    <button class="btn" type="submit">তথ্য পাঠান</button>
+    <p class="hint" id="repmsg" style="margin:0"></p>
+  </form>
+  <p class="hint">জরুরি বিপদে ৯৯৯, নারী ও শিশু নির্যাতনে ১০৯ নম্বরে কল করুন।</p>
+</section>
+
+<section>
+  <div class="sh"><h2>খবর ও নোটিশ</h2></div>
+  <div class="news">
+    <a href="#"><span class="bell">🔔</span><span><small>স্বেচ্ছাসেবা</small><b>স্বেচ্ছাসেবী কাজে যুক্ত হতে চান?</b></span></a>
+    <a href="#"><span class="bell">🔔</span><span><small>শালিসি</small><b>গ্রাম্য শালিসি বৈঠকের সময়সূচি</b></span></a>
+    <a href="#"><span class="bell">🔔</span><span><small>খেলাধুলা</small><b>আসন্ন টুর্নামেন্টের তথ্য</b></span></a>
+  </div>
+</section>
+
+<section class="alt" id="complaint">
+  <div class="sh"><div><div class="eyebrow">আপনার কথা শুনতে চাই</div><h2>অভিযোগ বক্স</h2></div></div>
+  <form class="rep" id="cmp">
+    <label>অভিযোগের ধরন<select required><option value="">নির্বাচন করুন</option><option>ফাউন্ডেশনের সেবা সংক্রান্ত</option><option>সাহায্য না পাওয়া</option><option>স্থানীয় সমস্যা</option><option>পরামর্শ</option><option>অন্যান্য</option></select></label>
+    <label>আপনার নাম (ঐচ্ছিক)<input autocomplete="name"></label>
+    <label>মোবাইল নম্বর (ঐচ্ছিক)<input type="tel" inputmode="numeric" autocomplete="tel"></label>
+    <label>অভিযোগের বিবরণ<textarea rows="4" required placeholder="আপনার অভিযোগ বা পরামর্শ লিখুন"></textarea></label>
+    <button class="btn" type="submit">অভিযোগ জমা দিন</button>
+    <p class="hint" id="cmpmsg" style="margin:0"></p>
+  </form>
+</section>
+
+<section id="president">
+  <div class="sh"><h2>সভাপতির পরিচিতি</h2></div>
+  <div class="pres">
+    <div class="avatar" role="img" aria-label="সভাপতির ছবির জায়গা"><span style="font-size:30px">👤</span><span>ছবি</span></div>
+    <div><b style="font-size:21px">সভাপতির নাম</b><br><small style="color:var(--mut)">সভাপতি, যোগীপাল সমাজকল্যাণ ফাউন্ডেশন</small><p style="margin:6px 0 0;font-size:14px;color:var(--mut)">এখানে সভাপতির ছোট বার্তা থাকবে।</p></div>
+  </div>
+</section>
+
+<div class="cta">
+  <h3>আপনার সহযোগিতা, কারও নতুন আশা</h3>
+  <p>শিক্ষা উপকরণ, সময় বা অনুদান দিয়ে মানুষের পাশে দাঁড়ান।</p>
+  <button class="btn">অনুদানের নির্দেশিকা</button>
+</div>
+
+<footer>
+  <div class="brand"><div class="logo"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M12 21v-8M12 13c0-4 3-6 7-6 0 4-3 6-7 6zM12 15c0-3-2-5-6-5 0 3 2 5 6 5z"/></svg></div>
+  <div><b>যোগীপাল</b><small>সমাজকল্যাণ ফাউন্ডেশন</small></div></div>
+  <p style="margin-top:10px">মানুষের পাশে, সমাজের কল্যাণে।</p>
+  <h4>যোগাযোগ</h4><p>📍 যোগীপাল, বাংলাদেশ</p><p>স্থানীয় প্রতিনিধির মাধ্যমে যোগাযোগ করুন।</p>
+  <h4>প্রয়োজনীয় যোগাযোগ</h4><p>📞 জাতীয় জরুরি সেবা — ৯৯৯</p><p>➕ স্বাস্থ্য বাতায়ন — ১৬২৬৩</p>
+</footer>
+</div>
+
+<script>
+const svc=[["🎓","শিক্ষা সহায়তা","মেধাবীদের পাশে","#e3f3e8"],["💙","স্বাস্থ্যসেবা","সবার জন্য সুস্থতা","#e1ecfb"],["🩸","রক্তদান","রক্ত দিন, জীবন বাঁচান","#fbe3e3"],["🤝","মানবিক সহায়তা","বিপদে মানুষের পাশে","#fdecd6"],["🌱","পরিবেশ ও প্রকৃতি","সবুজের অঙ্গীকার","#e6f2d8"],["🙋","স্বেচ্ছাসেবক","যুক্ত হোন আমাদের সাথে","#ece6fb"],["🎭","বিনোদন","মেলা, খেলা, সংস্কৃতি","#fde7f0"],["🛡️","নিরাপদ সমাজ","অপরাধ তথ্য জানান","#e8e8e8"],["🌾","কৃষক সহায়তা","চাষি ও বাজার তথ্য","#f3efd0"]];
+document.getElementById("svc").innerHTML=svc.map(s=>`<div class="svc"><div class="ic" style="background:${s[3]};font-size:22px">${s[0]}</div><b>${s[1]}</b><small>${s[2]}</small></div>`).join("");
+const prog=[
+["শিক্ষা উদ্যোগ","শিশুদের হাতে শিক্ষা উপকরণ","","#2f7a5a","📚"],
+["স্বাস্থ্য উদ্যোগ","কমিউনিটি স্বাস্থ্যসেবা","","#2c6f8f","🩺"],
+["মাদকবিরোধী উদ্যোগ","মাদকাসক্ত ব্যক্তি শনাক্তকরণ ও পুনর্বাসন","গোপনীয়তা বজায় রেখে সহায়তা ও চিকিৎসার পথ","#8a4b3a","🛡️"],
+["সামাজিক উদ্যোগ","গ্রাম্য শালিসি বৈঠক","স্থানীয় বিরোধ আলোচনার মাধ্যমে মীমাংসা","#7a5c2e","⚖️"],
+["ক্রীড়া উদ্যোগ","খেলাধুলা বিষয়ক তথ্য","ক্রিকেট, ফুটবল ও ভলিবলের সময়সূচি","#3d7a3a","⚽"],
+["আরও সেবা","নতুন কার্যক্রম শিগগিরই","","#5b5f97","➕"]];
+document.getElementById("prog").innerHTML=prog.map(p=>`<div class="prog"><div class="thumb" style="background:${p[3]};font-size:34px">${p[4]}</div><div class="t"><small>${p[0]}</small><b>${p[1]}</b>${p[2]?`<p>${p[2]}</p>`:""}</div></div>`).join("");
+document.getElementById("rep").onsubmit=e=>{e.preventDefault();document.getElementById("repmsg").textContent="ডেমো: তথ্য এখনো কোথাও সংরক্ষিত হয়নি।";};
+document.getElementById("cmp").onsubmit=e=>{e.preventDefault();document.getElementById("cmpmsg").textContent="ডেমো: অভিযোগ এখনো কোথাও সংরক্ষিত হয়নি।";};
+</script>
+</body>
+</html>
